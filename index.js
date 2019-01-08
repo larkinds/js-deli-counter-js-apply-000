@@ -1,5 +1,4 @@
-const takeANumber = (currentLine2, number) => {
-  currentLine2.push(number)
+const takeANumber = (currentLine2) => {
   let counter = 1
   return ('Welcome.' + ' You are number ' + currentLine2.length + ' in line.')
 }
