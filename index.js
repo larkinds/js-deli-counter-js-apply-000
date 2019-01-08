@@ -1,6 +1,7 @@
-const takeANumber = (currentLine2, name) => {
-  currentLine2.push(name)
-  return ('Welcome, ' + name + '.' + ' You are number ' + currentLine2.length + ' in line.')
+const takeANumber = (currentLine2, number) => {
+  currentLine2.push(number)
+  let counter = 1
+  return ('Welcome.' + ' You are number ' + currentLine2.length + ' in line.')
 }
 
 
@@ -18,8 +19,9 @@ const currentLine = (line) => {
 		return "The line is currently empty."
 	}
 
-	var sentence = 'The line is currently: ' // that
+	var sentence = 'The line is currently: '
 	var sen = ''
+	
   for (let i = 0; i < line.length; i++) {
 	let name = (line[i])
 	let num = i + 1
